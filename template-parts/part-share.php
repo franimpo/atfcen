@@ -1,0 +1,1 @@
+<div class="sharewidget"><h1><span class="ion-share"></span> COMPARTIR</h1><?php echo do_shortcode('[crunchify_social_sharing_buttons]') ; ?> <hr class="grisclaro"></div>

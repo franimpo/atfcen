@@ -1,0 +1,239 @@
+
+
+.sb-search {
+	position: absolute;
+    right: 0;
+	width: 0%;
+	min-width: 60px;
+	height: 4rem;
+	float: right;
+	overflow: hidden;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+	-webkit-backface-visibility: hidden;
+}
+
+.sb-search-input {
+    padding-left: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	outline: none;
+	background: #095577;
+	width: 100%;
+	height: 4rem;
+	margin: 0;
+	z-index: 10;
+	font-family: inherit;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.sb-search-input::-webkit-input-placeholder {
+	color: #8dacba;
+}
+
+.sb-search-input:-moz-placeholder {
+	color: #efb480;
+}
+
+.sb-search-input::-moz-placeholder {
+	color: #efb480;
+}
+
+.sb-search-input:-ms-input-placeholder {
+	color: #efb480;
+}
+
+.ion-ios-search-strong,
+.sb-search-submit  {
+	width: 60px;
+	height: 4rem;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 4rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sb-search-submit {
+	background: #fff; /* IE needs this */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+
+.ion-ios-search-strong {
+	color: #fff;
+	background: #095577;
+	z-index: 90;
+	font-size: 22px;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ion-ios-search-strong:before {
+	content: "\e000";
+}
+
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.sb-search.sb-search-open .ion-ios-search-strong,
+.no-js .sb-search .ion-ios-search-strong {
+	background: #ffffff;
+	color: #095577;
+	z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    
+
+.sb-search {
+	position: relative;
+    right: 0;
+	width: 0%;
+	min-width: 60px;
+	height: 4rem;
+	float: right;
+	overflow: hidden;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+	-webkit-backface-visibility: hidden;
+}
+
+.sb-search-input {
+    padding-left: 10px;
+	position: relative;
+	top: 0;
+	right: 0;
+	border: none;
+	outline: none;
+	background: #095577;
+	width: 100%;
+	height: 4rem;
+	margin: 0;
+	z-index: 10;
+	font-family: inherit;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.sb-search-input::-webkit-input-placeholder {
+	color: #8dacba;
+}
+
+.sb-search-input:-moz-placeholder {
+	color: #efb480;
+}
+
+.sb-search-input::-moz-placeholder {
+	color: #efb480;
+}
+
+.sb-search-input:-ms-input-placeholder {
+	color: #efb480;
+}
+
+.ion-ios-search-strong,
+.sb-search-submit  {
+	width: 60px;
+	height: 4rem;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 4rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sb-search-submit {
+	background: #fff; /* IE needs this */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+
+.ion-ios-search-strong {
+	color: #fff;
+	background: #095577;
+	z-index: 90;
+	font-size: 22px;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ion-ios-search-strong:before {
+	content: "\e000";
+}
+
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.sb-search.sb-search-open .ion-ios-search-strong,
+.no-js .sb-search .ion-ios-search-strong {
+	background: #ffffff;
+	color: #095577;
+	z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}
+    }

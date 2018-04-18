@@ -1,0 +1,17 @@
+body.login {
+ background: #4ca1af; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4ca1af, #c4e0e5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4ca1af, #c4e0e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.login form .input, .login form input[type="checkbox"], .login input[type="text"] {
+	border: solid 1px #cecece;
+}
+
+.login h1 a {
+  background-image: url('logo2_medium.png');
+    height:116px;
+		width:340px;
+		background-size: 340px 116px;
+}
